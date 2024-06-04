@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLYGONS</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            font-size: 20px;
+            padding: 50px 147px;
+            border: 1px solid black;
+        }
+
+        th {
+            background: aqua;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .triangle {
+            width: 200px;
+            height: 200px;
+            background: green;
+            clip-path: polygon(5% 95%, 50% 5%, 90% 95%);
+        }
+
+        .square {
+            width: 200px;
+            height: 195px;
+            background: blue;
+            clip-path: polygon(0 0 0 0);
+        }
+
+        .pentagon {
+            width: 200px;
+            height: 200px;
+            background: aqua (191, 201, 1);
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+        }
+
+        .hexagon {
+            width: 200px;
+            height: 200px;
+            background: rgb(115, 0, 255);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        }
+
+        .heptagon {
+            width: 200px;
+            height: 200px;
+            background: rgb(238, 245, 96);
+            clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+        }
+
+        .octagon {
+            width: 200px;
+            height: 200px;
+            background: rgb(72, 8, 104);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        }
+
+        .nonagon {
+            width: 200px;
+            height: 200px;
+            background: rgba(28, 134, 46, 0.792);
+            clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+        }
+
+        .decagon {
+            width: 200px;
+            height: 200px;
+            background: rgba(170, 237, 53, 0.792);
+            clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        }
+
+        .undecagon {
+            width: 200px;
+            height: 200px;
+            background: rgba(10, 37, 112, 0.792);
+            clip-path: polygon(35% 100%, 10% 85%, 0 60%, 5% 30%, 20% 10%, 50% 0, 80% 10%, 95% 30%, 100% 60%, 90% 85%, 65% 100%);
+        }
+
+        .dodecagon{
+            width: 200px;
+            height: 200px;
+            background: rgba(91, 68, 106, 0.792);
+            clip-path: polygon(40% 100%, 15% 85%, 0 60%, 0 40%, 15% 15%, 40% 0, 60% 0, 85% 15%, 100% 40%, 100% 60%, 85% 85%, 60% 100%);
+        }
+
+        .star{
+            width: 200px;
+            height: 200px;
+            background: gold;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+    </style>
+</head>
+
+<body>
+    <h1
+        style="text-align: center; color: green; text-shadow: 1px 4px 7px gray; border: 1px solid; width: 20%; background: yellow; display: block; margin: auto;">
+        Shapes In Clip-Path POLYGONS</h1><br>
+    <table>
+        <thead>
+            <tr class="text-color">
+                <th>Shapes</th>
+                <th>Name</th>
+                <th>Sides</th>
+                <th>Definition</th>
+            </tr>
+
+            <!--Triangle-->
+
+            <tr>
+                <td>
+                    <div class="triangle"></div><br>
+                </td>
+                <td>Triangle</td>
+                <td class="center">3 Equal Sides</td>
+                <td class="center">A geometric figure with three straight sides and three angles. Triangles can vary in
+                    size and shape, and are categorized by their angles (acute, obtuse, or right) and by their sides
+                    (equilateral, isosceles, or scalene).</td>
+            </tr>
+
+            <!--Square-->
+
+<tr>
+                <td>
+                    <div class="square"></div><br>
+                </td>
+                <td>Square</td>
+                <td class="center">4 Equal Sides</td>
+                <td class="center">A four-sided polygon with all sides equal in length and all angles measuring 90
+                    degrees. It is a type of rectangle and parallelogram, and is characterized by its symmetry and
+                    regularity.</td>
+            </tr>
+
+            <!--Pentagon-->
+
+            <tr>
+                <td>
+                    <div class="pentagon"></div><br>
+                </td>
+                <td>Pentagon</td>
+                <td class="center">5 Equal Sides</td>
+                <td class="center">A five-sided polygon with five straight sides and five angles. It can be regular (all
+                    sides and angles equal) or irregular.</td>
+            </tr>
+
+
+            <!--Star-->
+
+            <tr>
+                <td>
+                    <div class="star"></div>
+                </td>
+                <td>Star</td>
+                <td class="center">5 Equal Sides</td>
+                <td class="center">A star is a luminous spheroid of plasma held together by self-gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light.</td>
+            </tr>
+            <!--Hexagon-->
+
+            <tr>
+                <td>
+                    <div class="hexagon"></div><br>
+                </td>
+                <td>Hexagon</td>
+                <td class="center">6 Equal Sides</td>
+                <td class="center">A six-sided polygon with six straight sides and six angles. Hexagons are found in
+                    nature in the form of honeycomb cells and some crystals. They are used in various man-made
+                    structures and designs due to their efficient packing properties.</td>
+            </tr>
+
+            <!--Heptagon-->
+
+            <tr>
+                <td>
+                    <div class="heptagon"></div><br>
+                </td>
+                <td>Heptagon</td>
+                <td class="center">7 Equal Sides</td>
+                <td class="center">A seven-sided polygon with seven straight sides and seven angles. Heptagons are less
+                    common in everyday geometry but appear in some architectural designs and can be found in nature,
+                    such as in certain types of plant leaves.</td>
+            </tr>
+
+            <!--Octagon-->
+
+            <tr>
+                <td>
+                    <div class="octagon"></div>
+                </td>
+                <td>Octagon</td>
+                <td class="center">8 Equal Sides</td>
+                <td class="center">An eight-sided polygon with eight straight sides and eight angles. Octagons are
+                    frequently used in architecture and design, such as in the shape of stop signs and certain
+                    buildings.</td>
+            </tr>
+
+            <!--Nonagon-->
+
+            <tr>
+                <td>
+                    <div class="nonagon"></div>
+                </td>
+                <td>Nonagon</td>
+                <td class="center">9 Equal Sides</td>
+                <td class="center">A nine-sided polygon with nine straight sides and nine angles. Nonagons are less
+                    common in everyday geometry but appear in some decorative patterns and architectural designs.</td>
+            </tr>
+
+            <!--Decagon-->
+
+            <tr>
+                <td>
+                    <div class="decagon"></div>
+                </td>
+                <td>Decagon</td>
+                <td class="center">10 Equal Sides</td>
+                <td class="center">A ten-sided polygon with ten straight sides and ten angles. Decagons are used in
+                    various contexts, including geometry, architecture, and design.</td>
+            </tr>
+
+            <!--Undecagon-->
+
+<tr>
+                <td>
+                    <div class="undecagon"></div>
+                </td>
+                <td>Undecagon</td>
+                <td class="center">11 Equal Sides</td>
+                <td class="center">An eleven-sided polygon with eleven straight sides and eleven angles. Undecagons are
+                    less common and are primarily studied in mathematical contexts.</td>
+            </tr>
+
+            <!--Dodecagon-->
+
+            <tr>
+                <td>
+                    <div class="dodecagon"></div>
+                </td>
+                <td>Dodecagon</td>
+                <td class="center">12 Equal Sides</td>
+                <td class="center">A twelve-sided polygon with twelve straight sides and twelve angles. Dodecagons can be found in certain architectural designs and decorative patterns.</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>

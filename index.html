@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">MARJAN<span>DAVE</span></a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <section class="intro">
+        <div class="intro-content">
+            <div class="text-content">
+                <h1>Hi! I'm <span>MarjanDave Bolisay</span></h1>
+                <p>This is May Official Website to Shows All
+                    Details and Work Experience Development</p>
+                <a href="#about" class="btn">About</a>
+            </div>
+            <div class="image-content">
+                <img src="boy.png" style="width: 500px; border-radius: 50%; box-shadow: 1px 3px 5px black;">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>About me Hi! I'm Marjan Dave Bolisay, an IT student Im 19years old Freshman student from IT. At first
+                    it was difficult to do IT. I don't really have any plans to do IT. I really want to cook, but
+                    suddenly have a problem with the family , I was forced to do IT. because he started it even though
+                    it's hard to do but I'm trying to learn, it's hard to code, I'm always learning how to code, but I'm
+                    a slow learner, but even if I'm a slow learner, I'll continue to keep working with IT.</p>
+            </div>
+            <div class="about-image">
+                <img src="boy.png" style="width: 340px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1 style="text-align: center;">SKILLS</h1>
+        <div class="skills-center">
+            <div class="skills-content">
+                <div class="skills-item">
+                    <img src="html.png" alt="HTML Image">
+                    <p class="skill-name">HTML</p>
+                </div>
+                <div class="skills-item">
+                    <img src="css.png" style="width: 216px;">
+                    <p class="skill-name">CSS</p>
+                </div>
+                <div class="skills-item">
+                    <img src="cpp.png" style="width: 226px;">
+                    <p class="skill-name">C++</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <img src="bad.png" alt="Activity 1">
+                <a href="bad.png"><p class="activity-name">Blog 1</p></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="per.png">
+                <a href="per.html"><p class="activity-name">Periodic Table</p></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="chess.jpg">
+                <a href="chess.html"><p class="activity-name">Chess</p></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="mono.jpg">
+                <a href="mono.jpg"><p class="activity-name">Monopoly</p></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="bloglatestpost.jpg">
+                <a href="bloglatestpost.jpg"><p class="activity-name">Blog Spot</p></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="blogpost.jpg" alt="Activity 6">
+                <a href="blogpost.jpg"><p class="activity-name">Blog Spot 2</p></a>
+            </div>
+            <div class="portfolio-item">
+                <img src="polygongon.jpg" alt="Activity 7">
+                <a href="polygongon.jpg"><p class="activity-name">Polygon</p></a>
+            </div>
+        </div>
+    </section>    
+
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>I'm MarjanDave Bolisay a webdeveloper.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: Marjandavebolisay@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="foot-links">
+                <a href="https://web.facebook.com/marjandave.bolisay"><p><i class="fa fa-facebook-f" style="font-size:24px"></i></p></a>
+                <a href="https://www.tiktok.com/@marjandavebolisay?lang=en"><p><i class="ri-tiktok-fill"></i></p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
